@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .wrap {
+            display: flex;
+            justify-content: space-around;
+            max-width: 100%;
+        }
+
+        .block-first__icon img {
+            width: 100%;
+            height: 100%;
+            max-width: 32px;
+        }
+
+        .wrap__block {
+            display: flex;
+            align-items: center;
+        }
+
+        .block-first__text {
+            margin-left: 8px;
+        }
+
+        @media (max-width: 767px) {
+            .wrap {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    </style>
+
+</head>
+<body>
+        <div class="wrap" itemscope="event" itemtype="http://schema.org/Event">
+            <div class="wrap__block-first">
+                <meta itemprop="eventType" content="Dịch vụ Luật sư" />
+                <meta itemprop="name" content="Dịch vụ pháp lý" />
+                <meta itemprop="description" content="Tư vấn pháp luật" />
+        
+                <span itemprop="summary" class="wrap__block">
+                    <div class="block-first__icon">
+                        <img src="http://accgroup.vn/wp-content/uploads/2021/08/attorney_service.svg" alt="">
+                    </div>
+                    <div class="block-first__text">Dịch vụ Luật sư</div>
+                </span>
+            </div>
+            <div class="wrap__block-second">
+                <meta itemprop="eventType" content="Dịch vụ Luật sư" />
+                <meta itemprop="name" content="Dịch vụ pháp lý" />
+                <meta itemprop="description" content="Tư vấn pháp luật" />
+        
+                <span itemprop="summary" class="wrap__block">
+                    <div class="block-first__icon">
+                        <img src="http://accgroup.vn/wp-content/uploads/2021/08/legal_service.svg" alt="">
+                    </div>
+                    <div class="block-first__text">Dịch vụ pháp lý</div>
+                </span>
+            </div>
+            <div class="wrap__block-third">
+                <meta itemprop="eventType" content="Dịch vụ Luật sư" />
+                <meta itemprop="name" content="Dịch vụ pháp lý" />
+                <meta itemprop="description" content="Tư vấn pháp luật" />
+        
+                <span itemprop="summary" class="wrap__block">
+                    <div class="block-first__icon">
+                        <img src="http://accgroup.vn/wp-content/uploads/2021/08/compliant.svg" alt="">
+                    </div>
+                    <div class="block-first__text">Tư vấn pháp luật</div>
+                </span>
+        
+            </div>
+        
+        </div>
+</body>
+</html>
