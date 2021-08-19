@@ -28,7 +28,8 @@
             height: 100%;
             overflow: hidden;
 
-            min-height: 100%;
+            max-height:76vh;
+            font-family: sans-serif;
         }
 
         .carousel-slder {
@@ -126,10 +127,11 @@
 
         .bg-slder .contain-text{
             opacity: 1;
-            width: 22%;
-            left: 7%;
+            /* width: 31%; */
+            left: 15%;
+            right: 15%;
             z-index: 3;
-            top: 36%;
+            top: 172px;
             color: white;
             transition: 0.4s;
         }
@@ -154,10 +156,11 @@
             opacity: 0;
         }
         .contain-text p{
-            font-size: 16px;
-            line-height: 20px;
-            color: #c9d1d9;
+            font-size: 39px;
+            color: #ffffff;
             opacity: 0;
+            line-height: 1.5;
+            font-weight: bold;
         }
         .contain-text .btn-see-more{
             color: white;
@@ -256,6 +259,51 @@
                 pointer-events: none;
          }
 
+         .hide-btn-dot {
+             display: none;
+         }
+
+         .hide-btn-arrow {
+             display: block;
+         }
+         @media (max-width: 767px) {
+  
+            *{}
+
+            .pic {
+                opacity: 0.9;
+            }
+
+            .bg-slder .contain-text {
+                display: block;
+                margin: auto;
+                left: 20%;
+                right: 20%;
+            }
+
+            .contain-text p {
+                font-size: 30px;
+            }
+
+            .hide-btn-dot {
+                display: block;
+            }
+            
+        
+        }
+
+        @media (min-width: 320px) and (max-width: 480px) {
+            .hide-btn-arrow {
+                display: none;
+            }
+
+            .bg-slder .contain-text {
+                left: 15%;
+                right: 7%;
+            }
+        }
+
+
     </style>
 </head>
 
@@ -273,16 +321,9 @@
                         <div class="pic"
                             style="background: url(img/bg_1.png) no-repeat  center center fixed; background-size: cover;">
                         </div>
-                        <img src="img/home_webdesign_slide1_cover2.png" alt="" class="down-decor-up">
-                        <img src="img/home_webdesign_slide1_cover3.png" alt="" class="down-decor-down-1">
-                        <img src="img/home_webdesign_slide1_cover3.png" alt="" class="down-decor-down-2">
                         <div class="contain-text">
-                            <h2>01</h2>
-                            <small>Hello world</small>
-                            <div class="line"></div>
-                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
-                                egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget,...</p>
-                            <a href="" class="btn-see-more">See Project</a>
+                            <p>CÔNG TY LUẬT ACC<br>ĐỒNG HÀNH <br> PHÁP LÝ
+                                CÙNG BẠN</p>
                         </div>
                         <!--End contain-text-->
                     </div>
@@ -296,16 +337,12 @@
                         <div class="pic"
                             style="background: url(img/bg_2.png) no-repeat center center fixed; background-size: cover;">
                         </div>
-                        <img src="img/home_webdesign_slide3_cover2.png" alt="" class="down-decor-up">
-                        <img src="img/home_webdesign_slide3_cover3.png" alt="" class="down-decor-down-1">
-                        <img src="img/home_webdesign_slide3_cover3.png" alt="" class="down-decor-down-2">
+                        
                         <div class="contain-text">
-                            <h2>02</h2>
-                            <small>Hello world</small>
-                            <div class="line"></div>
-                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
-                                egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget,...</p>
-                            <a href="" class="btn-see-more">See Project</a>
+                           
+                            <p>Thành Lập Công Ty <br> Thành Lập Chi Nhánh
+                                <br> Thành Lập Văn Phòng Đại Diện</p>
+                            
                         </div>
                         <!--End contain-text-->
 
@@ -322,16 +359,9 @@
                         <div class="pic"
                             style="background: url(img/bg_3.jpg) no-repeat center center fixed; background-size: cover;">
                         </div>
-                        <img src="img/home_webdesign_slide4_cover2.png" alt="" class="down-decor-up">
-                        <img src="img/home_webdesign_slide4_cover3.png" alt="" class="down-decor-down-1">
-                        <img src="img/home_webdesign_slide4_cover3.png" alt="" class="down-decor-down-2">
                         <div class="contain-text">
-                            <h2>03</h2>
-                            <small>Hello world</small>
-                            <div class="line"></div>
-                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
-                                egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget,...</p>
-                            <a href="" class="btn-see-more">See Project</a>
+                            <p>Thành Lập Văn Phòng Đại Diện <br>Xin Visa Cho
+                                Người Nước Ngoài <br> Thẻ Tạm Trú Cho Người Nước Ngoài </a></p>
                         </div>
                         <!--End contain-text-->
                     </div>
@@ -344,16 +374,9 @@
                         <div class="pic"
                             style="background: url(img/bg_4.png) no-repeat center center fixed; background-size: cover;">
                         </div>
-                        <img src="img/home_webdesign_slide4_cover2.png" alt="" class="down-decor-up">
-                        <img src="img/home_webdesign_slide4_cover3.png" alt="" class="down-decor-down-1">
-                        <img src="img/home_webdesign_slide4_cover3.png" alt="" class="down-decor-down-2">
                         <div class="contain-text">
-                            <h2>04</h2>
-                            <small>Hello world</small>
-                            <div class="line"></div>
-                            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
-                                egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget,...</p>
-                            <a href="" class="btn-see-more">See Project</a>
+                            <p>Dịch Vụ Kế Toán Trưởng <br> Dịch Vụ Kế Toán
+                                Trọn Gói <br> Dịch Vụ Kế Toán Thuế Trọn Gói <br></p>
                         </div>
                         <!--End contain-text-->
                     </div>
@@ -364,7 +387,7 @@
         </div>
 
         <!-- arrow btn -->
-    <div class="wrap-btn-arrow">
+    <div class="wrap-btn-arrow hide-btn-arrow">
         <a class="left-arrow arrow-class" id="left-arrow-id">
             <svg class="icon" viewBox="0 0 18 11">
                 <path d="M6.3.6l-5 4.9 5 4.9m11-5H2" fill="none" stroke="currentColor"></path>
@@ -378,7 +401,7 @@
     </div>
         <!-- End of slider -->
         
-        <div class="btn-change-slide">
+        <div class="btn-change-slide hide-btn-dot">
             <ul>
                 <li class="btn-active">1</li>
                 <li>2</li>
