@@ -136,7 +136,7 @@
             left: 14%;
             right: 15%;
             z-index: 3;
-            top: 100px;
+            top: 120px;
             color: white;
             transition: 0.4s;
         }
@@ -166,18 +166,18 @@
             opacity: 0;
             line-height: 1.5;
             font-weight: bold;
-            /* display: contents; */
+            text-transform: uppercase;
         }
        .contain-text .btn-see-more{
-            color: white;
-            text-decoration: none;
-            border: 1px solid white;
-            padding: 8px 35px;
-            margin-top: 10px;
-            display: inline-block;
-            font-size: 15px;
-            text-transform: uppercase;
-            opacity: 0;
+                color: white;
+                text-decoration: none;
+                border: 1px solid #ffffff75;
+                padding: 12px 35px;
+                margin-top: 10px;
+                display: inline-block;
+                font-size: 15px;
+                text-transform: uppercase;
+                opacity: 0;
         }
         
 
@@ -203,7 +203,7 @@
         .carousel-slder ul li.slider-active .contain-text small {animation-delay: 0.8s;}
         .carousel-slder ul li.slider-active .contain-text .line {animation-delay: 1s;} */
         .carousel-slder ul li.slick-active .contain-text h1 {animation-delay: 0.6s;}
-        .carousel-slder ul li.slick-active .contain-text .btn-see-more {animation-delay: 1.4s;}
+        .carousel-slder ul li.slick-active .contain-text .btn-see-more {animation-delay: 0.6s;}
 
         /*CSS for btn */
         .btn-change-slide {text-align: center;position: absolute;bottom: 0%;left: 50%;transform: translateX(-50%);z-index: 9999;}
@@ -275,14 +275,14 @@
         }
 
         .arrow-class .icon {
-                position: relative;
-                margin-top: 14px;
-                vertical-align: middle;
-                color: white;
-                width: 1em;
-                height: 1em;
-                fill: currentColor;
-                pointer-events: none;
+            position: relative;
+            margin-top: 14px;
+            vertical-align: middle;
+            color: white;
+            width: 1em;
+            height: 1em;
+            fill: currentColor;
+            pointer-events: none;
          } 
          .hide-btn-arrow {
              display: block;
@@ -312,25 +312,30 @@
             padding-bottom: 0;
             padding-top: 0;
 
-            font-size: 13px!important;
-            color: white;
-            font-weight: 500;
+            font-size: 20px;
+            color: #ffffffbf;
+            text-transform: uppercase;
 
-            border-left: 1px solid white;
+            border-left: 1px solid #ffffffbf;
             line-height: 1.5;
+
         }
 
         .slick-slide.slick-current.slick-active h3 {
-            font-weight: bold;
+            color: #ffffffc4;
+            border-left: 1px solid #ffffffc4;
+
         }
 
-
+        .slider-text-bottom h3:hover {
+            cursor: pointer;
+        }
 
         @media (min-width: 885px) and (min-width: 1024px) {
             *{}
 
              .bg-slder .contain-text {
-                width: 60%;
+                width: 30%;
              }
             
         
@@ -345,14 +350,11 @@
             .pic {
                 opacity: 0.9;
             }
-             .contain-text h1 {
-                font-size: 24px;
-            }
 
             .bg-slder .contain-text {
                 display: block;
                 margin: auto;
-                left: 20%;
+                left: 5%;
                 right: 20%;
                 top: 120px;
                 width: 75%;
@@ -368,20 +370,22 @@
                 margin-left: auto;
                 margin-right: auto;
                 margin: 0;
+
+                font-size: 15px;
+                outline: none;
             }
 
             .slick-slide.slick-current.slick-active h3 {
-                font-size: 13px;
+                font-size: 15px;
             }
         }
 
         @media (min-width: 320px) and (max-width: 480px) {
             .contain-text h1 {
-                font-size: 21px;
+                font-size: 30px;
             }
-
             .bg-slder .contain-text {
-                left: 15%;
+                left: 7%;
                 right: 7%;
                 top: 150px;
                 width: 90%;
@@ -429,8 +433,7 @@
                         
                         <div class="contain-text">
                         <article>
-                            <h1>Thành Lập Công Ty <br /> Thành Lập Chi Nhánh
-                                <br> Thành Lập Văn Phòng Đại Diện</h1>
+                            <h1>Tư vấn đăng ký <br /> kinh doanh</h1>
                             </article>
                             <a href="" class="btn-see-more">Đọc thêm</a>
 
@@ -449,8 +452,7 @@
                         </div>
                         <div class="contain-text">
                             <article>
-                            <h1>Thành Lập Văn Phòng Đại Diện<br /> Xin Visa Cho
-                                Người Nước Ngoài <br />Thẻ Tạm Trú Cho Người Nước Ngoài</h1>
+                            <h1>Tư vấn kế toán - <br />kiểm toán</h1>
                             </article>
                             <a href="" class="btn-see-more">Đọc thêm</a>
 
@@ -468,8 +470,7 @@
                         </div>
                         <div class="contain-text">
                             <article>
-                            <h1>Dịch Vụ Kế Toán Trưởng <br /> Dịch Vụ Kế Toán 
-                                Trọn Gói <br /> Dịch Vụ Kế Toán Thuế Trọn Gói </h1>
+                            <h1>Tư vấn đầu tư - <br />nước ngoài</h1>
                             </article>
                             <a href="" class="btn-see-more">Đọc thêm</a>
                             </div>
@@ -484,8 +485,7 @@
                         </div>
                         <div class="contain-text">
                             <article>
-                            <h1>Tư vấn đăng ký kinh doanh <br /> Tư vấn kế toán - kiểm toán
-                                 <br /> Tư vấn đầu tư - nước ngoài <br />  Dịch vụ luật sư tư vấn </h1>
+                            <h1>Dịch vụ luật sư <br /> tư vấn</h1>
                             </article>
                             <a href="" class="btn-see-more">Đọc thêm</a>
                             </div>
@@ -504,20 +504,17 @@
                 cùng bạn</h3>
             </div>
             <div>
-                <h3>Thành Lập Công Ty <br /> Thành Lập Chi Nhánh
-                <br> Thành Lập Văn Phòng Đại Diện</h3>
+                <h3>Tư vấn đăng ký <br />kinh doanh</h3>
             </div>
             <div>
-                <h3>Thành Lập Văn Phòng Đại Diện<br /> Xin Visa Cho
-                Người Nước Ngoài <br />thẻ Tạm Trú Cho Người Nước Ngoài</h3>
+                <h3>Tư vấn kế toán - <br /> kiểm toán</h3>
             </div>
             <div>
-                <h3>Dịch Vụ Kế Toán Trưởng <br /> Dịch Vụ Kế Toán
-                Trọn Gói <br /> Dịch Vụ Kế Toán Thuế Trọn Gói</h3>
+                <h3>Tư vấn đầu tư - <br /> nước ngoài</h3>
             </div>
             <div>
-                <h3>Tư vấn đăng ký kinh doanh <br /> Tư vấn kế toán - kiểm toán
-                <br /> Tư vấn đầu tư - nước ngoài <br /> Dịch vụ luật sư tư vấn</h3>
+                <h3>
+                Dịch vụ luật sư <br />tư vấn</h3>
             </div>
         </div>
     </div> 
